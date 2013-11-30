@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+h2{
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+
+
+.container{
+	width:70%;
+	margin: 0 auto;
+
+>ul li {		
+list-style: none;	
+	}
+}
+
+.flash_notice{
+	background: lighten(green, 30%);
+	}
+.flash_alert{
+	background: lighten(red, 30%);
+	}

@@ -1,0 +1,17 @@
+<div class="container">
+
+<h2>Welcome to users.</h2>
+
+	<ul>
+	<% for @person in @lists %>
+	<li><%= @person.name %>
+	| <%= link_to 'Edit', edit_user_path(@person) %>
+	| <%= link_to 'Delete', @person, :method => "delete" %>
+	</li>
+	<% end %>
+	</ul>
+
+	<h2>add user in list</h2>
+
+	<%= render 'form' %> 
+</div>
